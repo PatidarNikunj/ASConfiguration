@@ -1,0 +1,79 @@
+# ASConfiguration
+<keymap version="1" name="Default copy" parent="$default">
+  <action id="ActivateNotesToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
+  </action>
+  <action id="ActivateTODOToolWindow" />
+  <action id="Android.BuildApk">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="Android.GenerateSignedApk">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="Android.SyncProject">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
+  <action id="AndroidConnectDebuggerAction">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="CleanGradleProject">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="ExternalSystem.ToggleAutoImport">
+    <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
+  </action>
+  <action id="ImportProject">
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+  </action>
+  <action id="NewAndroidImageAsset">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="NewAndroidVectorAsset">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="NewProject">
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+  </action>
+  <action id="NewProjectFromVCS">
+    <keyboard-shortcut first-keystroke="ctrl alt 5" />
+  </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="ctrl alt 2" />
+  </action>
+  <action id="RebuildGradleProject">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="RecentProjectListGroup">
+    <keyboard-shortcut first-keystroke="ctrl alt 4" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="ToggleBreakpointEnabled">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="template.create.XMLLayout XML File">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+</keymap>
