@@ -19,6 +19,12 @@
   <action id="CleanGradleProject">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="CompareClipboardWithSelection">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="CompareFileWithEditor">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
   <action id="ExternalSystem.ToggleAutoImport">
     <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
   </action>
