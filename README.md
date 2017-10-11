@@ -3,6 +3,9 @@
   <action id="ActivateNotesToolWindow">
     <keyboard-shortcut first-keystroke="ctrl alt q" />
   </action>
+  <action id="ActivatePreviewToolWindow">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
   <action id="ActivateTODOToolWindow" />
   <action id="Android.BuildApk">
     <keyboard-shortcut first-keystroke="alt b" />
@@ -28,8 +31,14 @@
   <action id="ExternalSystem.ToggleAutoImport">
     <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
   </action>
+  <action id="ImportModule">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
   <action id="ImportProject">
     <keyboard-shortcut first-keystroke="ctrl alt 3" />
+  </action>
+  <action id="InvalidateCaches">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
   </action>
   <action id="NewAndroidImageAsset">
     <keyboard-shortcut first-keystroke="alt i" />
@@ -75,6 +84,9 @@
   </action>
   <action id="ToggleBreakpointEnabled">
     <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+  <action id="ToggleReadOnlyAttribute">
+    <keyboard-shortcut first-keystroke="alt t" />
   </action>
   <action id="XDebugger.MuteBreakpoints">
     <keyboard-shortcut first-keystroke="f10" />
