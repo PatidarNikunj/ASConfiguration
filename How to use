@@ -1,80 +1,102 @@
-1.Home Screen|Filter Screen|Current Location Screen
-	Add Search Bar > Add some item in list as filtered
-	Animation Handling
-	FragmentUtil.java Handling(if time consuming, use activity instead)
-	Add Current Location Code
-	Filter Screen > Add Reset to default code
-	Add notification badge 
-	Add particular Font As well
-	
-2.Product Detail Screen
-	Check Login Flow
-	Add dummy reviews in ReviewsFromUser Screen.
-	Add count of reviews when adding new review
-	Add By Button Click
-	Borrow Screen
-		Hide Buy and Rent Button - Modify as needed
-		Profile Icon Click goto > show user profile (who post the item)
-		In ReviewFromUser screen visible Leave a review Button
-			After adding review it will be added in listed review
-	Listed Screen
-		Hide Buy and Rent Button - Modify as needed
-		Add Edit and Delete button in a view on delete will removed item from Product List
-			Add Images multiple images on top
-		Create new screen for editing item including location selection screen(use LocationChooser.java)
-			Changes tobe applied on edit in ProductDetail Screen
-		In ReviewFromUser screen remove Leave a review Button
-	Lending Screen
-		Hide Buy and Rent Button and  Show Return Button - Modify as needed
-		In ReviewFromUser screen remove Leave a review Button
-		
-	Add particular Font As well
-	
-3.Notification Screen
-	Add Notifications in Request and others. 
-	Add particular Font As well
-	
-4.Post A Picture
-	Add Image Chooser
-	Add Product information
-	On Post Button click product will be added in list
-	Add particular Font As well
-	
-5.Message Screen
-	Add chat view with left-right chat manner
-	On clicking on accept or decline remove button from list
-	Add particular Font As well
-	
-6.Profile Screen
-	Add particular Font As well
-	
-7.Verification Screen
-	After Registration
-		Add Facebook verification
-		Add Email Verification
-		Add Phone verification
-		Add Card Verification
-		Add Licence verification
-	After clicking on MyInfo Label
-		Add Edit label in header view to edit following details
-		Add Phone verification
-		Add Card Verification
-		Add Licence verification
-		Add change Password Row
-		Add another row as mentioned in SRS
-		
-	Add particular Font As well
-	
-8.Change Password Screen
-	Add Edit Text and validation with change Button
-	Add particular Font As well
-	
-9.Registration Screen
-	Add Image cropper after selecting image
-	Add particular Font As well
-	
-10.Rental Screen
-	Add particular Font As well
-	
-11.TnC Screen
-	Add close button in header to close
+<keymap version="1" name="JockniksDefault" parent="$default">
+  <action id="ActivateNotesToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
+  </action>
+  <action id="ActivatePreviewToolWindow">
+    <keyboard-shortcut first-keystroke="alt z" />
+  </action>
+  <action id="ActivateTODOToolWindow" />
+  <action id="Android.BuildApk">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
+  <action id="Android.GenerateSignedApk">
+    <keyboard-shortcut first-keystroke="alt g" />
+  </action>
+  <action id="Android.SyncProject">
+    <keyboard-shortcut first-keystroke="shift ctrl alt g" />
+  </action>
+  <action id="AndroidConnectDebuggerAction">
+    <keyboard-shortcut first-keystroke="alt a" />
+  </action>
+  <action id="CleanGradleProject">
+    <keyboard-shortcut first-keystroke="alt c" />
+  </action>
+  <action id="CompareClipboardWithSelection">
+    <keyboard-shortcut first-keystroke="alt w" />
+  </action>
+  <action id="CompareFileWithEditor">
+    <keyboard-shortcut first-keystroke="alt e" />
+  </action>
+  <action id="Debugger.Tree.AddToWatches">
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
+  </action>
+  <action id="ExternalSystem.ToggleAutoImport">
+    <keyboard-shortcut first-keystroke="shift ctrl alt enter" />
+  </action>
+  <action id="ImportModule">
+    <keyboard-shortcut first-keystroke="alt m" />
+  </action>
+  <action id="ImportProject">
+    <keyboard-shortcut first-keystroke="ctrl alt 3" />
+  </action>
+  <action id="InvalidateCaches">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
+  <action id="Kotlin.NewFile">
+    <keyboard-shortcut first-keystroke="alt k" />
+  </action>
+  <action id="NewAndroidImageAsset">
+    <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="NewAndroidVectorAsset">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
+  <action id="NewClass">
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id="NewDir">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
+  <action id="NewProject">
+    <keyboard-shortcut first-keystroke="ctrl alt 1" />
+  </action>
+  <action id="NewProjectFromVCS">
+    <keyboard-shortcut first-keystroke="ctrl alt 5" />
+  </action>
+  <action id="OpenFile">
+    <keyboard-shortcut first-keystroke="ctrl alt 2" />
+  </action>
+  <action id="RebuildGradleProject">
+    <keyboard-shortcut first-keystroke="alt r" />
+  </action>
+  <action id="RecentProjectListGroup">
+    <keyboard-shortcut first-keystroke="ctrl alt 4" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="shift alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="shift alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="shift alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="shift alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="shift alt up" />
+  </action>
+  <action id="ToggleBreakpointEnabled">
+    <keyboard-shortcut first-keystroke="ctrl alt f10" />
+  </action>
+  <action id="ToggleReadOnlyAttribute">
+    <keyboard-shortcut first-keystroke="alt t" />
+  </action>
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="template.create.XMLLayout XML File">
+    <keyboard-shortcut first-keystroke="alt l" />
+  </action>
+</keymap>
