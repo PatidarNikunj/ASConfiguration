@@ -1,0 +1,31 @@
+....
+
+const App=()=>{
+  const [proceedAhead, setProceedAhead] = useState(false);
+  const [isOffline, setOfflineStatus] = useState(false);
+
+ useEffect(() => {
+    setTimeout(() => {
+      //Hide your splash here and udpdate the state
+      setStartFurtherProcess(true);
+    }, 1500);
+ }
+ const handleConnectivityChange = (state) => {
+    let offline = state.isConnected;
+    if (offline) {
+      offline = state.isInternetReachable || true;
+    }
+    setOfflineStatus(!offline);
+ };
+  
+ useEffect(() => {
+    if (!proceedAhead) return;
+    const removeNetInfoSubscription = NetInfo.addEventListener(handleConnectivityChange);
+    return () => removeNetInfoSubscription();
+  }, [proceedAhead, isOffline]);
+
+return
+(proceedAhead && <NoNetworkView isOffline={isOffline} /> )
+}
+
+...
